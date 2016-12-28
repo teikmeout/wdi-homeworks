@@ -1,0 +1,111 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+}
+
+body {
+  /*background-color: red;*/
+}
+
+header.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*border: 1px red solid;*/
+  margin-bottom: 50px;
+}
+
+h1.home {
+  font-size: 3em;
+}
+
+input.form {
+  height: 60px;
+  width: 40vw;
+  border-radius: .4em;
+  padding: 0px;
+  font-size: 1em;
+
+}
+
+/*input.placeholder {
+  text-align: center;
+}*/
+/*didn't know how to PUT A PLACEHOLDER. */
+/* Credits to http://stackoverflow.com/questions/7381446/center-html-input-text-field-placeholder */
+::-webkit-input-placeholder {
+   text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+:-ms-input-placeholder {
+   text-align: center;
+}
+
+input.search {
+  height: 60px;
+  width: 150px;
+  font-size: 1em;
+  border: none;
+  background-color: teal;
+  color: #FAFAFA;
+  border-radius: .4em;
+}
+
+input.search:hover {
+  background-color: darkcyan;
+  color: salmon;
+}
+
+/* editing the left side for DB showing*/
+section.home {
+  width: 50vw;
+  height: 60vh;
+  border: 1px solid firebrick;
+  float: left;
+  margin-left: 20px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+/* editing the right side for API showing*/
+aside.home {
+  width: 40vw;
+  height: 60vh;
+  border: 1px solid cyan;
+  float: right;
+  margin-right: 20px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* styling the individual containers for each movie*/
+div.individualleft {
+  text-align: center;
+  /*height: 200px;*/
+  border-radius: .4em;
+  /*background-color: teal;*/
+  /*display: block;*/
+  /*flex-direction: column;
+  align-items: space-between;*/
+}
+
+div.individualright {
+  text-align: center;
+}
+
+img.individualleft, img.individualright {
+  height: 445px;
+  width: 300px;
+}

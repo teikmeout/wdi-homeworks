@@ -1,0 +1,74 @@
+body{
+	font-family: Sans-serif, serif;
+}
+/*this will modify  nav bar and Joe johnson*/
+header {
+	text-align: center;
+	border-top: 5px solid black;
+	/*will remove color, just using to verify spacing*/
+	/*background-color: red;*/
+	padding: 20px;
+	margin-top:20px;
+}
+h1 {
+	font-size: 40px;
+	/*background-color: blue;*/
+}
+nav {
+
+}
+a{
+	/*making link color of anchors black*/
+	color: #000;
+}
+p {
+	/*tried to float p... kinda didnt work*/
+	float: left;
+	/*color should be removed, just for trial and error*/
+	/*background-color: teal;*/
+}
+li {
+	display: inline-block;
+}
+img{
+	/*putting it on the side */
+	float: right;
+	/*giving it a light border*/
+	border: 2px solid #222;
+	/*giving it some inside space*/ 
+	padding: 2px;
+	/*making it vertically centered and with a left 2px border*/
+	margin: auto 0 auto 2px;
+}
+footer{
+	font-size: 20px;
+	/*comment out before delivering*/
+	/*background-color: red;*/
+	text-align: center;
+	border-bottom: 5px solid black;
+	padding: 40px;
+}
+#topList{
+	padding-right:10px;
+	/*background-color: blue;*/
+}
+
+#profile{
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000	;
+	width: 90%;
+	margin: 0 auto;
+}
+/* this will leave img inside div without and margins*/
+.clearfix {
+	overflow: auto;
+}
+
+#whatPage{
+	text-decoration: none;
+	font-style: italic;
+}
+/*I only created this class to contrast color with background and figure out spacing*/
+.addColor{
+	background-color: teal;
+}

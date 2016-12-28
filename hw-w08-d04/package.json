@@ -1,0 +1,25 @@
+{
+  "name": "hw-w08-d04",
+  "version": "1.0.0",
+  "description": "Express server that connects to a PSQL Database to render currently playing movies in a theater.   Access OMDB server with fetch API calls made asynchronously from the front end JS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:teikmeout/hw-w08-d04.git"
+  },
+  "author": "Taka Ahrens",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "pg-promise": "^5.3.5",
+    "views": "^1.0.2"
+  }
+}

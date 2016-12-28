@@ -1,0 +1,14 @@
+.button-container {
+  margin: 10px;
+}
+
+.action-button {
+  margin: 10px;
+  height: 40px;
+  width: 60px;
+  border-radius: .4em;
+  border: none;
+  background-color: firebrick;
+  color: #FAFAFA;
+  font-size: .8em;
+}

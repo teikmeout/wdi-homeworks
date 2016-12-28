@@ -1,0 +1,30 @@
+{
+  "name": "hw-w05-d02",
+  "version": "1.0.0",
+  "description": "![XFiles](https://media.giphy.com/media/l41lFptE01rEpCFQA/giphy.gif)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:teikmeout/hw-w05-d02.git"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "taka",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1"
+  }
+}

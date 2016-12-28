@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Show Restaurants</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+ <h1>Show restaurants route made correctly</h1>
+  <% if (rest.length === 0) { %>
+    <h1>No results available</h1>
+    <form action="http://localhost:3000/restaurants">
+      <input type="submit" value="Search Again" />
+    </form>
+  <% } else { %>
+  <% rest.forEach((resta)=> { %>
+  <div class=indivContainer>
+    <h4>Name: </h3>
+    <p> <%= resta.dba%></p>
+    <h4>Street: </h3>
+    <p><%= resta.street%></p>
+    <h4>Zip Code: </h3>
+    <p><%= resta.zipcode%></p>
+    <h4>Violation code: </h4>
+    <p><%= resta.violation_code%></p>
+    <h4>Violation reason: </h4>
+    <p><%= resta.violation_description%></p>
+
+
+  </div>
+  <% }) %>
+  <form action="http://localhost:3000/rats">
+    <input type="submit" value="Search Again" />
+  </form>
+  <% }%>
+</body>
+</html>

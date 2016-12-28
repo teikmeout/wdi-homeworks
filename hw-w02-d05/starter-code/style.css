@@ -1,0 +1,139 @@
+/*formatting general elements in css for both sites*/
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lalezar', cursive;
+}
+html.index {
+  text-align: center;
+}
+
+header.index {
+  height: 100px;
+  background-color: lightblue;
+}
+
+/*img.background {*/
+/*  position: absolute;
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}*/
+
+/*styles the header in game.html*/
+header.game {
+  height: 15%;
+  border: 2px dotted red;
+  top: 0;
+  margin: 0;
+  text-align: center;
+  /*container of div title needs overflow to adjust
+  the */
+  overflow:auto;
+}
+
+/*modifies the reset button on the game.html*/
+button.game {
+  font-size: 1.35em;
+  color: white;
+  background-color: red;
+  border-radius: .3em;
+}
+
+/*formatting the background of the Div on landing page*/
+#backgroundLanding {
+  background-image: url(./images/fondo.png);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+}
+
+
+/*CLASS game*/
+
+
+
+.runner {
+  /*making dummy runners*/
+  height: 50px;
+  width: 50px;
+  /*I'm not really sure this margin does anything*/
+  /*margin: 20px;*/
+  /*making position of runners absolute to the div that contains them*/
+  position: absolute;
+}
+
+.img {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+input.start {
+  font-size: 1.6em;
+  background-color: #FF0000;
+  color: white;
+  border-radius: .3em;
+}
+
+/*styling the container div that hold reset button*/
+#reset {
+  position: relative;
+  float: right;
+  /*border: 1px solid blue;*/
+  margin-right: 4%;
+  margin-top: 3%;
+}
+
+#title{
+  float: left;
+  margin-left: 5%;
+}
+
+
+#player1 {
+  top: 0;
+  left: 0;
+}
+
+#player2 {
+  /*temporary runner color*/
+  /*background-color: blue;*/
+  /*giving top left values to move div inside*/
+  top: 0;
+  left: 0;
+}
+
+#dulce {
+  max-height: 70px;
+  max-width: 70px;
+  top: 0;
+  left: 0;
+}
+#candy {
+  max-height: 70px;
+  max-width: 70px;
+  top: 308px;
+  left: 0;
+  position: absolute;
+}
+
+/*formatting the Div that covers all the game*/
+#gameBoard {
+  /*position: relative;*/
+  position: fixed;
+  /*making sure it's defaults don't bother*/
+  margin: 0;
+  padding: 0;
+  /*giving the header some space*/
+  top:17%;
+  left: 0;
+  /*putting size to the fullscreen div*/
+  height: 100%;
+  width: 100%;
+  border: 3px dotted black;
+}
+
+/*make responsive design for index.html*/
+/*@media (max-width)*/
+

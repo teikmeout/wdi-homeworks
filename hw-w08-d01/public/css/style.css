@@ -1,0 +1,13 @@
+.IndivContainer{
+  border: 1px solid red;
+}
+
+body {
+  /*background-color: red;*/
+}
+
+#putShitHere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

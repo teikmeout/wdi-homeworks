@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Show Rats Page</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <h1>Show Rats made correctly</h1>
+  <% if (ratas.length === 0) { %>
+    <h1>No results available</h1>
+    <form action="http://localhost:3000/rats">
+      <input type="submit" value="Search Again" />
+    </form>
+  <% } else { %>
+  <% ratas.forEach((rata)=> { %>
+  <div class=indivContainer>
+    <h4>Address: </h3>
+    <p> <%= rata.incident_address%></p>
+    <h4>Cross Street: </h3>
+    <p><%= rata.cross_street_2%></p>
+    <h4>Zip Code: </h3>
+    <p><%= rata.incident_zip%></p>
+
+  </div>
+  <% }) %>
+  <form action="http://localhost:3000/rats">
+    <input type="submit" value="Search Again" />
+  </form>
+  <% }%>
+</body>
+</html>

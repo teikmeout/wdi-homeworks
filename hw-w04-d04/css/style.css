@@ -1,0 +1,47 @@
+body {
+  /*display: flex;*/
+  background-image: url('../images/kesha.jpg');
+  background-size: cover;
+  color: white;
+}
+
+header {
+  height: 200px;
+
+}
+
+aside {
+  border: 1px dotted yellow;
+  width: 65%;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+/*styling the div that holds the list and aside*/
+.container {
+  width: cover;
+  border: 1px dotted red;
+  display: flex;
+}
+
+/*styling the div of list display*/
+.list {
+
+}
+
+/*styling the div with the images*/
+.artwork {
+  border: 1px dotted blue;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(101,55,151,.5);
+}
+
+.artworkSmall {
+  height: 100px;
+  width: 100px;
+  border: 1px dotted orange;
+}

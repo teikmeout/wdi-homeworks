@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, arial;
+  /*border: 1px red dotted;*/
+}
+
+body {
+  background-color: lavender;
+}
+
+.container {
+  /*position: absolute;*/
+  background: url(./images/theDude.jpg);
+  background-size: cover;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  padding: 1em;
+  /*margin-top: 1em;*/
+  /* ViewHeight is a value for window display height*/
+  min-height: 100vh;
+}
+
+.container h1, .container h5 {
+  text-align: center;
+}
+
+.container h5 {
+  font-size: 2em;
+}
+
+.container img {
+  max-height: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*styling the top DIV that contains title*/
+.row.title {
+  margin: 10em 0 4em 0;
+}
+
+/*poiting at both the searcch field and the button*/
+.u-full-width {
+  /*margin: 0 auto;*/
+}
+
+/*pointing only to divs that contain input and button*/
+.six.columns {
+  /*display: flex;*/
+  /*justsify-content: space-between;*/
+  /*background-color: red;*/
+  /*border: 1px yellow solid;*/
+  /*height: 2em;*/
+}
+
+/*pointing to the container of #movies*/
+#movies {
+  /*putting flexbox on objects inside this div*/
+  display: flex;
+  /*giving priority to centering*/
+  justify-content: space-around;
+  /*making it go around when it reaches page width*/
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#search-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em 0 2em 0;
+  /*height: 5em;*/
+  /*border:1px red solid;*/
+}
+
+/*styling the input field*/
+input {
+  width: 30em;
+  height: 4em;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 600;
+  border: 2px solid #DCDCDC;
+}
+
+/*styling the button for search*/
+.six.columns button {
+  height: 2em;
+  width: 10em;
+  font-size: 1em;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb(255,236,184);
+  color: black;
+}
+
+.delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  /*justify-content: center;*/
+}
+
+.four.columns div {
+  position: absolute;
+}
+
